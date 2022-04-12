@@ -1,21 +1,15 @@
 #include "main.h"
 
 /**
- * main - program that prints _putchar.
+ * main - entry point
  *
- * Return: int
+ * Return: 0
  */
-
 int main(void)
 {
-	int n = 0;
-	char str_hbt[9] = "alxschool";
+	char *holberton;
 
-	while (n < 9)
-	{
-		_putchar(str_hbt[n]);
-		n += 1;
-	}
-	_putchar('\n');
+	for (holberton = "Holberton\n"; *holberton != '\0'; ++holberton)
+		_putchar(*holberton);
 	return (0);
 }
