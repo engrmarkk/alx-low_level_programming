@@ -1,15 +1,21 @@
 #include "main.h"
 
 /**
- * main - entry point
+ * main - program that prints Holberton.
  *
- * Return: 0
+ * Return: int
  */
+
 int main(void)
 {
-	char *_putchar;
+	int n = 0;
+	char str_hbt[9] = "Holberton";
 
-	for (_putchar = "_putchar\n"; *_putchar != '\0'; ++_putchar)
-		_putchar(*_putchar);
+	while (n < 9)
+	{
+		_putchar(str_hbt[n]);
+		n += 1;
+	}
+	_putchar('\n');
 	return (0);
 }
