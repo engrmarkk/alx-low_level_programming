@@ -7,9 +7,9 @@
  */
 int main(void)
 {
-	char *holberton;
+	char *_putchar;
 
-	for (holberton = "Holberton\n"; *holberton != '\0'; ++holberton)
-		_putchar(*holberton);
+	for (_putchar = "_putchar\n"; *_putchar != '\0'; ++_putchar)
+		_putchar(*_putchar);
 	return (0);
 }
