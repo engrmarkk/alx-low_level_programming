@@ -1,20 +1,16 @@
-#include "main.h"
-
+#include "holberton.h"
 /**
- * main - program that prints Holberton.
- *
- * Return: int
+ * main - prints the string "Holberton" from a character array.
+ * Return: 0 on success.
  */
-
 int main(void)
 {
-	int n = 0;
-	char str_hbt[9] = "Holberton";
+	char c[] = "Holberton";
+	int i;
 
-	while (n < 9)
+	for (i = 0; i < 9; i++)
 	{
-		_putchar(str_hbt[n]);
-		n += 1;
+		_putchar(c[i]);
 	}
 	_putchar('\n');
 	return (0);
