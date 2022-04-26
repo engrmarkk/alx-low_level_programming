@@ -22,4 +22,3 @@ void print_number(int n)
 		_putchar('0' - n % 10);
 	}
 }
-
